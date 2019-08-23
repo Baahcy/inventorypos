@@ -3,7 +3,7 @@
 include_once'connectdb.php';
 session_start();
 
-if($_SESSION['role']=="User"){
+if($_SESSION['role']=="User" OR $_SESSION['useremail']==""){
     header('location:dashboard.php');
 }
 include_once 'header.php';

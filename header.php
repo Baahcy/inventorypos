@@ -22,7 +22,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <script src="bower_components/sweetalert/sweetalert.js"></script>
     
     <!-- DataTables -->
-  <link rel="stylesheet" href="../../bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
+  <link rel="stylesheet" href="bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
   
 
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
