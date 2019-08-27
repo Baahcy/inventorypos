@@ -1,0 +1,9 @@
+Database Structure
+
+Main Database Name = pos_db
+
+Tables 
+
+1. tbl_user = id , username, useremail, password, role
+
+2. tbl_category = id, category
