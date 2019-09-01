@@ -7,3 +7,5 @@ Tables
 1. tbl_user = id , username, useremail, password, role
 
 2. tbl_category = id, category
+
+3. tbl_product = id, product_name, category, purchase_price, sales_price, sales_price, stock, description, image

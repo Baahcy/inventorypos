@@ -211,6 +211,7 @@ if(isset($_POST['btn_delete'])){
             <!-- /.box-header -->
             <!-- form start -->
             <form role="form" action="" method="post">
+            
              
              <?php
                 if(isset($_POST['btn_edit'])){
@@ -277,9 +278,12 @@ if(isset($_POST['btn_delete'])){
                       <tbody>
                       
                              <?php
-                          $select = $pdo->prepare("select * from tbl_category order by id desc");
+                          $select = $pdo->prepare("select * from tbl_category order by id asc");
                           
                           $select->execute();
+                         
+                          // Add Datatables here
+                          
                           
                           while($row=$select->fetch(PDO::FETCH_OBJ)){
                               echo '

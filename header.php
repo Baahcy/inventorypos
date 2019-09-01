@@ -180,6 +180,8 @@ desired effect
         <li class="active"><a href="category.php"><i class="fa fa-list-alt"></i> <span>Category</span></a></li>
         
         <li class="active"><a href="registration.php"><i class="fa fa-registered"></i> <span>Registration</span></a></li>
+        
+        <li class="active"><a href="product.php"><i class="fa fa-registered"></i> <span>Product</span></a></li>
    
 <!--
         <li class="treeview">
