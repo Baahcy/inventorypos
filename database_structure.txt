@@ -9,3 +9,17 @@ Tables
 2. tbl_category = id, category
 
 3. tbl_product = id, product_name, category, purchase_price, sales_price, sales_price, stock, description, image
+
+
+
+Error Reporting Issues
+
+#1. Check if a file with a size larger than 1MB or 1000000 should not be entered into the database using sweet alert
+
+#2. Make sure that the login for User in terms for the dashboard is different from that of the admin Dashboard
+
+#3. Fix the search engine in both the productlist and category using DataTable
+
+#4. With editproduct.php only accessible by the admin
+
+#5. Fix image update for editproduct.php 

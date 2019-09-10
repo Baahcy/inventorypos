@@ -26,6 +26,11 @@ include_once 'header.php';
       <!--------------------------
         | Your Page Content Here |
         -------------------------->
+        <div class="box box-info">
+            <div class="box-header with-border">
+              <h3 class="box-title">Blank Form</h3>
+            </div>
+        </div>
 
     </section>
     <!-- /.content -->

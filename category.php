@@ -266,7 +266,7 @@ if(isset($_POST['btn_delete'])){
               <div class="col-md-8">
                  
                   
-                  <table class="table table-striped">
+                  <table id="categorytable" class="table table-striped">
                       <thead>
                           <tr>
                               <td><b>#</b></td>
@@ -320,6 +320,7 @@ if(isset($_POST['btn_delete'])){
     </section>
     <!-- /.content -->
   </div>
+    
   
   <!-- /.content-wrapper -->
 <?php

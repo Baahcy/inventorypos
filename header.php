@@ -178,10 +178,12 @@ desired effect
         <li class="active"><a href="dashboard.php"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
         
         <li class="active"><a href="category.php"><i class="fa fa-list-alt"></i> <span>Category</span></a></li>
-        
+                    
         <li class="active"><a href="registration.php"><i class="fa fa-registered"></i> <span>Registration</span></a></li>
         
-        <li class="active"><a href="product.php"><i class="fa fa-registered"></i> <span>Product</span></a></li>
+        <li class="active"><a href="product.php"><i class="fa fa-product-hunt"></i> <span>Product</span></a></li>
+        
+<!--        <li class="active"><a href="viewproduct.php"><i class="fa fa-th-list"></i> <span>Product List</span></a></li>-->
    
 <!--
         <li class="treeview">
