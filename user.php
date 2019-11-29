@@ -16,11 +16,10 @@ include_once 'header.php';
     <section class="content-header">
       <h1>
         User Dashboard
-        <small></small>
+        <small>Feel free to improve</small>
       </h1>
       <ol class="breadcrumb">
-        <li><a href="dashboarduser.php"><i class="fa fa-dashboard"></i> Level</a></li>
-        <li class="active">Here</li>
+        
       </ol>
     </section>
 

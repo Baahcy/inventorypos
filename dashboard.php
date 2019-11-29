@@ -15,8 +15,8 @@ include_once 'header.php';
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Admin Dashboard
-        <small></small>
+         Dashboard
+        <small>Feel free to improve</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>

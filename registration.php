@@ -1,4 +1,3 @@
-
 <?php
 include_once'connectdb.php';
 session_start();
@@ -141,83 +140,83 @@ if(isset($_POST['submit'])){
 }
 
 ?>
- 
 
- <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
-      <h1>
-        Registration Panel
-        <small></small>
-      </h1>
-      <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
-        <li class="active">Here</li>
-      </ol>
+        <h1>
+            Registration Panel
+            <small></small>
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
+            <li class="active">Here</li>
+        </ol>
     </section>
 
     <!-- Main content -->
     <section class="content container-fluid">
 
-      <!--------------------------
+        <!--------------------------
         | Your Page Content Here |
         -------------------------->
         <!-- general form elements -->
-          <div class="box box-info">
+        <div class="box box-info">
             <div class="box-header with-border">
-              <h3 class="box-title">Quick Example</h3>
+                <h3 class="box-title">Quick Example</h3>
             </div>
             <!-- /.box-header -->
             <!-- form start -->
             <form role="form" action="#" method="post">
-              <div class="col-md-4">
-                  <div class="box-body">
-                   <div class="form-group">
-                  <label for="exampleInputEmail1">Username</label>
-                  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter Username" name="txt_username">
+                <div class="col-md-4">
+                    <div class="box-body">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Username</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter Username" name="txt_username">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" name="txt_email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="txt_password">
+                        </div>
+
+
+                        <div class="form-group">
+                            <label>Role</label>
+                            <select class="form-control" name="txt_selectoption">
+                                <option>User</option>
+
+                            </select>
+                        </div>
+                        <div class="box-footer">
+                            <button type="submit" class="btn btn-info" name="submit">Submit</button>
+                        </div>
+
+                    </div>
                 </div>
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" name="txt_email">
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="txt_password">
-                </div>
-                   <!-- select -->
-                <div class="form-group">
-                  <label>Role</label>
-                  <select class="form-control" name="txt_selectoption">
-                    <option>Admin</option>
-                    <option>User</option>
-                    
-                  </select>
-                </div>
-                 <div class="box-footer">
-                <button type="submit" class="btn btn-info" name="submit">Submit</button>
-              </div>
-       
-              </div>
-              </div>
-              
-              <div class="col-md-8">
-                 
-                  
-                  <table class="table table-striped">
-                      <thead>
-                          <tr>
-                              <td><b>#</b></td>
-                              <td><b>NAME</b></td>
-                              <td><b>EMAIL</b></td>
-                              <td><b>PASSWORD</b></td>
-                              <td><b>ROLE</b></td>
-                              <td><b>DELETE</b></td>
-                          </tr>
-                      </thead>
-                      <tbody>
-                          
-                          <?php
+
+                <div class="col-md-8">
+
+
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <td><b>#</b></td>
+                                <td><b>NAME</b></td>
+                                <td><b>EMAIL</b></td>
+                                <td><b>PASSWORD</b></td>
+                                <td><b>ROLE</b></td>
+                                <td><b>DELETE</b></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <?php
                           $select = $pdo->prepare("select * from tbl_user order by id desc");
                           
                           $select->execute();
@@ -240,27 +239,27 @@ if(isset($_POST['submit'])){
                           }
                           
                           ?>
-                        
-                          
-                      </tbody>
-                      
-                  </table>
-                  
-                  
-              </div>
-              
 
-             
+
+                        </tbody>
+
+                    </table>
+
+
+                </div>
+
+
+
             </form>
-          </div>
-          <!-- /.box -->
-   
-   
-   
+        </div>
+        <!-- /.box -->
+
+
+
     </section>
     <!-- /.content -->
-  </div>
-  <!-- /.content-wrapper -->
+</div>
+<!-- /.content-wrapper -->
 <?php
     include_once 'footer.php';
 ?>

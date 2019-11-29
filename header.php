@@ -21,9 +21,26 @@ scratch. This page gets rid of all links and provides the needed markup only.
     
     <script src="bower_components/sweetalert/sweetalert.js"></script>
     
+    <!-- date-range-picker -->
+    <script src="bower_components/moment/min/moment.min.js"></script>
+    <script src="bower_components/bootstrap-daterangepicker/daterangepicker.js"></script>
+    <!-- bootstrap datepicker -->
+    <script src="bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+    <!-- bootstrap color picker -->
+    <script src="bower_components/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.min.js"></script>
+
     <!-- DataTables -->
   <link rel="stylesheet" href="bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
   
+   <!-- iCheck for checkboxes and radio inputs -->
+  <link rel="stylesheet" href="plugins/iCheck/all.css">
+  <!-- iCheck 1.0.1 -->
+    <script src="plugins/iCheck/icheck.min.js"></script>
+  
+  <!-- daterange picker -->
+  <link rel="stylesheet" href="bower_components/bootstrap-daterangepicker/daterangepicker.css">
+  <!-- bootstrap datepicker -->
+  <link rel="stylesheet" href="bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
 
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
   <!-- Font Awesome -->
@@ -53,7 +70,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- Google Font -->
   <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
-        
+    
  
 </head>
 <!--
@@ -150,12 +167,13 @@ desired effect
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel">
         <div class="pull-left image">
+          <!-- You can input your picture here -->
           <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
           <p><?php echo $_SESSION['username'];?></p>
           <!-- Status -->
-          <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+          
         </div>
       </div>
 
@@ -182,6 +200,8 @@ desired effect
         <li class="active"><a href="registration.php"><i class="fa fa-registered"></i> <span>Registration</span></a></li>
         
         <li class="active"><a href="product.php"><i class="fa fa-product-hunt"></i> <span>Product</span></a></li>
+        
+        <li class="active"><a href="createorder.php"><i class="fa fa-product-hunt"></i> <span>Create Order</span></a></li>
         
 <!--        <li class="active"><a href="viewproduct.php"><i class="fa fa-th-list"></i> <span>Product List</span></a></li>-->
    

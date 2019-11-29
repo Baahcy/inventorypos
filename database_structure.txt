@@ -8,7 +8,7 @@ Tables
 
 2. tbl_category = id, category
 
-3. tbl_product = id, product_name, category, purchase_price, sales_price, sales_price, stock, description, image
+3. tbl_product = id, product_name, category, purchase_price, sales_price, stock, description, image
 
 
 
